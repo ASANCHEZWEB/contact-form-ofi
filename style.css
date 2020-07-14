@@ -1,0 +1,107 @@
+.infoOficina {
+    padding: 20px;
+    font-family: montserrat;
+}
+
+.infoOficina>h1 {
+    text-align: center;
+    color: green;
+}
+
+.infoOficina>p {
+    max-width: 874px;
+    text-align: center;
+    margin: auto
+}
+
+.oficinaFormContainer>.formDiv {
+    padding: 20px;
+    margin: auto;
+    max-width: 874px;
+    padding-top: 30px;
+}
+
+.oficinaFormContainer>h3 {
+    text-align: center;
+    font-family: Montserrat;
+}
+
+.formDiv>form>h2 {
+    text-align: center;
+    font-size: 18px;
+    font-family: Montserrat;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.formDiv>form {
+    margin: auto;
+    max-width: 454px;
+    background-color: #2ecc71;
+    display: flex;
+    font-family: Montserrat;
+    color: white;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+}
+
+.formDiv>form>hr {
+    width: 60%;
+    margin: auto;
+    border: none;
+    height: 1px;
+    background-color: white;
+}
+
+.formDiv>form>div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px 40px 15px 40px;
+
+}
+
+.formDiv>form>div>input {
+    border: none;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.buttonOfiForm {
+    width: 80px;
+    margin: auto;
+    color: #2ecc71;
+    border-radius: 6px;
+}
+
+.rgpdCheckbox {
+    font-size: 12px;
+}
+
+.buttonsContactOfi {
+    display: flex;
+    justify-content: center;
+    max-width: 350px;
+    padding-top: 11px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.buttonChatLinea {
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.buttonsContactOfi>a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
